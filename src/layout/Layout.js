@@ -1,7 +1,8 @@
+import { Outlet } from 'react-router-dom';
 import React from 'react';
+
 import Navbar from '../components/Navbar';
 import Alert from '../components/Alert';
-import { Outlet } from 'react-router-dom';
 
 const Layout = ({ mode, toggleMode, alert }) => {
   return (
